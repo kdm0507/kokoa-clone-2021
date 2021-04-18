@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome ro Kokoa Talk</title>
+    <title>Welcome to Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -32,13 +32,17 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/c6d7529ef5.js"
